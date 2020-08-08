@@ -1,0 +1,75 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+nav{
+    position: relative;
+    text-align: center;
+    height: 60px;
+}
+nav ul{
+    list-style: none;
+    width: 60%;
+    margin: auto;
+}
+nav ul li, nav ul .modes li{
+    display: inline-block;
+    padding: 15px 0;
+}
+nav ul li a, nav ul .modes li a{
+    text-decoration: none;
+    line-height: 30px;
+    padding: 19px;
+    color: #262626;
+}
+.shadow{
+    position: relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li a, .color_changing{
+    color: rgb(108, 184, 219);
+}
+main{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+    padding-bottom: 26%;
+}
+.certain_color{
+    color: #ffffff;
+    background-color: #000000;
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    top: 20%;
+    padding: 10px;
+    margin: 3%;
+    background-color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: none;
+}
+.mode_changed {
+    color: rgb(108, 184, 219) !important;
+}
+.toggle_changed {
+    color: rgb(108, 184, 219) !important;
+}
+.black{
+    background-color: black !important;
+    color: white !important;
+}
